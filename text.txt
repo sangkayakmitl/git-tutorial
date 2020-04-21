@@ -5,3 +5,4 @@ master change
 - This is my change.
 - Bla Bla Bla
 - i edit some feature
+- edit some feature from user2
