@@ -1,0 +1,33 @@
+git --version
+git config --global --list
+git config --list
+git config --global user.name "jirawut Yuwabenjapol"
+git config --global user.email "jirawut.y@egat.co.th"
+git config --global --list
+
+git init
+git add .
+git commit -m "comment"
+git status
+git clean -n
+git clean -df
+git reset --hard [comit id]
+
+git branch
+git branch --all
+git branch develop
+git branch develop
+git branch --delete  develop
+git checkout <branch name,commit id>
+git checkout -b test
+git checkout <branch name> <file name>
+
+git merge --no-ff <branch name>
+
+git merge <branch name>
+git remote add origin <repo url>
+git remote add origin http://github.com/sangkayakmitl/<some repo>
+git -v
+git push origin master
+git push origin develop
+git push --delete origin develop
